@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-size: 13vmax;
+  background: #ccc;
+  text-shadow: 0 -0.5rem 1rem #c92121, 0 0.5rem 1rem #1c7dbd;
+}
+
+div span:nth-child(1) {
+  text-shadow: 0 -0.5rem 1rem #6fd646, 0 0.5rem 1rem #999;
+}
+
+div span:nth-child(2) {
+  text-shadow: 0 -0.5rem 1rem #901a00, 0 0.5rem 1rem #999;
+}
+
+div span:nth-child(3) {
+  text-shadow: 0 -0.5rem 1rem #ffc127, 0 0.5rem 1rem #999;
+}
+/*# sourceMappingURL=colorShadow.css.map */
